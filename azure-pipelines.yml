@@ -20,6 +20,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/WisdomHove/WizzyARMPipeline/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName WizzyARMPipeline'
+    overrideParameters: 'WizzyARMPipeline'
     deploymentMode: 'Incremental'
-    deploymentOutputs: 'DeployPipelineTemplate'
+    deploymentName: 'DeployPipelineTemplate'
