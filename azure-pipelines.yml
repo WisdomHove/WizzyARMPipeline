@@ -19,7 +19,5 @@ steps:
     resourceGroupName: 'cloud-shell-storage-westeurope'
     location: 'West Europe'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/WisdomHove/WizzyARMPipeline/main/CreateWebApp/azuredeploy.json?token=GHSAT0AAAAAABZCOPJNHIFASCL2OMDNV4A2Y5NJQGA'
-    overrideParameters: '-projectName WizzyARMPipeline'
+    csmFileLink: 'https://raw.githubusercontent.com/WisdomHove/WizzyARMPipeline/main/CreateWebApp/azuredeploy.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'DeployPipelineTemplate'
